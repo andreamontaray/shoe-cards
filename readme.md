@@ -11,7 +11,7 @@ A basic HTML and CSS project featuring three cards with title, description, butt
 
 ## Inspiration and Learning
 
-Lumina Creative was created as a project for the "Modern HTML & CSS from the Beginning (2024 Revamp)" course by Brad Traversy.
+This project was created as a project for the "Modern HTML & CSS from the Beginning (2024 Revamp)" course by Brad Traversy.
 
 ## Notes
 
