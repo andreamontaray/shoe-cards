@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(209, 223, 226);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+h2,
+p {
+  margin-bottom: 20px;
+}
+
+/* Container */
+
+.container {
+  max-width: 550px;
+  margin: 50px auto;
+  padding: 0 10px;
+}
+
+.card {
+  background: white;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 25px 15px;
+}
+
+/* Title */
+
+.sporty {
+  color: rgb(217, 62, 72);
+}
+
+.casual {
+  color: rgb(14, 65, 151);
+}
+
+.formal {
+  color: rgb(68, 37, 26);
+}
+
+/* Buttons */
+
+.card .sporty-a {
+  background-color: rgb(217, 62, 72);
+}
+.card .sporty-a:hover {
+  background-color: rgba(217, 62, 72, 0.8);
+}
+
+.card .casual-a {
+  background-color: rgb(14, 65, 151);
+}
+.card .casual-a:hover {
+  background-color: rgba(14, 65, 151, 0.8);
+}
+
+.card .formal-a {
+  background-color: rgb(68, 37, 26);
+}
+.card .formal-a:hover {
+  background-color: rgba(68, 37, 26, 0.8);
+}
+
+.card a {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Images */
+
+.card-sporty {
+  background: white url("./images/sporty.png") no-repeat center right;
+  background-size: 200px;
+}
+.card-casual {
+  background: white url("./images/casual.png") no-repeat center right;
+  background-size: 200px;
+}
+.card-formal {
+  background: white url("./images/formal.png") no-repeat center right;
+  background-size: 200px;
+}
